@@ -18,7 +18,7 @@ yarn start
 
 demo 只要看两个地方
 
-1、src/App.js 点击打开裁切页面的按钮 和 裁切后图片的展示区域都在这里
+1、src/App.js 点击选择图片的按钮 和 裁切后图片的展示区域都在这里
 
 2、src/components/ReactCropper 这个目录是裁剪组件的目录
 
