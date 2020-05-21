@@ -1,0 +1,71 @@
+/* 全局背景 */
+.react_cropper {
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 弹窗的主体样式 */
+.react_cropper_body {
+  position: relative;
+  width: 800px;
+  min-height: 500px;
+  box-sizing: border-box;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* 编辑窗口的头部，包含了标题和关闭按钮 */
+.react_cropper_body_header {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 标题 */
+.react_cropper_body_header_title {
+  font-size: 24px;
+  color: #2a79ff;
+  font-weight: bold;
+}
+
+/* 关闭按钮 */
+.react_cropper_body_header_close {
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+}
+
+/* 编辑窗口的说明文字区域 */
+.react_cropper_body_desc {
+  font-size: 14px;
+  margin: 24px 0;
+}
+
+/* 编辑区域 */
+.react_cropper_body_ctrl {
+  height: 320px;
+  width: 100%;
+}
+
+/* 预览区域 */
+.react_cropper_body_view {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 100%;
+  display: flex;
+}
+/* 预览图像 */
+.react_cropper_body_view_item {
+  overflow: hidden;
+}
