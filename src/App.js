@@ -66,7 +66,7 @@ const App = () => {
           <input
             ref={img}
             type="file"
-            accept="image/jpeg,image/jpg,image/png"
+            accept="image/jpeg,image/jpg,image/png,image/svg+xml"
             style={{ display: "none" }}
             onChange={onFileChange}
           />
